@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body
+{
+background-color:#f9f781;
+}
+
+.explanation
+{
+ froat:reft;
+ }
+ 
+ dt
+ {
+clear: left;
+float: left;
+font-weght: bold;
+}
+
