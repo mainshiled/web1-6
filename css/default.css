@@ -17,14 +17,14 @@ font-weight: bold;
 }
 
 #split
-{
+{ 
+ float:left;
 border:4px solid #2aed85;
  border-collapse: collapse;
 }
 
 caption
 {
- float:left;
  padding: 7px;
 }
 
