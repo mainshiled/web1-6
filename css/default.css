@@ -44,13 +44,19 @@ background-color:#94efbf;
 
 th
 {
+ border: 2px;
  background-color:#8ed3ff;
+ padding: 5px;
+ width: 70px;
  text-align: center;
 }
 
 td
 {
+ border: 1px;
  background-color:white;
+ padding: 5px;
+ width: 70px;
  text-align: center;
 }
 .change
