@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang ="ja">
 <head>
-<meta charset="ulf-8">
+<meta charset="utf-8">
 <title>装備</title>
-  <link rel="stylesheet"href="css/default.css"type="text/css">
+  <link rel="stylesheet" href="css/default.css" type="text/css">
 </head>
 <body>
 <h1>DNA一覧</h1>
  <ol>
- <li>攻撃性DNA</li>
+ <li>攻撃性DNA
   <ul>
   <li>狂暴</li>
   <li>物理攻撃</li>
   <li>化学攻撃</li>
   </ul>
-  <li>防御性DNA</li>
+  </li>
+  <li>防御性DNA
   <ul>
   <li>堅硬</li>
   <li>物理防御</li>
   <li>化学防御</li>
-  </ul>
+  </ul></li>
+  </ol>
   
   <h2>稀少DNA</h2>
   
-  <d1　class="explanation">
+  <dl class="explanation">
    <dt>絆:</dt><dd>6種</dd>
    <dt>英雄:</dt><dd>5種</dd>
-   </d1>
+   </dl>
    
    <table id="split">
      <caption>カテゴリーと評価</caption>
      
-     <colgroup id="name"> 
-      <colgroup id="category"> 
-      <colgroup id="evaluation"> 
+     <colgroup id="name"> </colgroup>
+      <colgroup id="category"> </colgroup>
+        <colgroup id="evaluation"> </colgroup>
      <thead>
        <tr><th>DNA</th><th>カテゴリー</th><th>評価</th></tr>
    </thead>
@@ -48,27 +50,26 @@
     
     <h2>質問</h2>
     <form id="top" action="#" method="post">
-    <p>ユーザーネーム<input type="text" name=""></p>
+    <p>ユーザーネーム<input type="text" name="name"></p>
     <p>
      <input type="submit" value="送信" class="change change-submit">
-    <input type="reset"value="消去" class="change change-reset"></p>
-  </form>
+    <input type="reset" value="消去" class="change change-reset"></p>
     
     <p>現状必要なDNAカテゴリーは？
-    <input type="radio" name="DNA"　value="attack" checked>攻撃性DNA
-    <input type="radio" name="DNA"　value="defence">防御性DNA
-    <input type="radio" name="DNA"　value="band">絆系DNA
-    <input type="radio" name="DNA"　value="hero">英雄系DNA
+    <input type="radio" name="DNA" value="attack" checked>攻撃性DNA
+    <input type="radio" name="DNA" value="defence">防御性DNA
+    <input type="radio" name="DNA" value="band">絆系DNA
+    <input type="radio" name="DNA" value="hero">英雄系DNA
     </p>
     
     <p>英雄系DNAで必要なものは（複数可）
-    <input type="checkbox" name="DNA"　value="gun" checked>純潔神速
-    <input type="checkbox" name="DNA"　value="fist">百華無双
-    <input type="checkbox" name="DNA"　value="sword">絶技刻限
-    <input type="checkbox" name="DNA"　value="home">天威無法
-    <input type="checkbox" name="DNA"　value="chemest">堅忍不抜
+    <input type="checkbox" name="DNA" value="gun" checked>純潔神速
+    <input type="checkbox" name="DNA" value="fist">百華無双
+    <input type="checkbox" name="DNA" value="sword">絶技刻限
+    <input type="checkbox" name="DNA" value="home">天威無法
+    <input type="checkbox" name="DNA" value="chemest">堅忍不抜
     </p>
-    
+  
     <p>好きな部活カテゴリーは？
     <select name="club">
      <option value="gun">射撃部
@@ -77,5 +78,6 @@
      <option value="home">帰宅部
     <option value="chemest">化学部
     </select></p>
-     </body>
-     </html>
+    </form>
+ </body>
+ </html>
