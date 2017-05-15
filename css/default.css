@@ -57,12 +57,12 @@ border: 2px solid #2aed85;
 
 .cange:hover
 {
- opacity:1.1;
+ opacity:0.7;
 }
 
 .change:activ
 {
-opacity:1.5;
+color:#ffa663;
 }
 
 .change-submit
