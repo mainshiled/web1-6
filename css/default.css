@@ -16,34 +16,41 @@ float: left;
 font-weight: bold;
 }
 
-dd
-{
-float: left;
-font-weight: bold;
-}
-
 #split
 {
 border:4px solid #2aed85;
  border-collapse: collapse;
+}
 
+caption
+{
+ padding: 7px;
+}
+
+#evaluation
+{
+ background-color:#ff9d82;
+}
+
+thead th
+{
+background-color:white;
+}
+
+thead td
+{
+background-color:#94efbf;
 }
 
 th
 {
-border: 2px solid #2aed85;
- background-color:#94efbf;
- padding: 3px;
- width: 90px;
+ background-color:#8ed3ff;
  text-align: center;
 }
 
 td
 {
-border: 2px solid #2aed85;
- background-color:#bcf2d2;
- padding: 3px;
- width: 90px;
+ background-color:white;
  text-align: center;
 }
 .change
@@ -53,16 +60,6 @@ border: 2px solid #2aed85;
  width: 50px;
  height: 30px;
  font-size: 15px;
-}
-
-.cange:hover
-{
- opacity:0.7;
-}
-
-.change:activ
-{
-color:#ffa663;
 }
 
 .change-submit
